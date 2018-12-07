@@ -50,7 +50,7 @@ class LoadData(object):
             for item in items[1:]:
                 feature, value = item.split(':')
                 if feature not in self.features:
-                    self.features[feature] = 1.0
+                    self.features[feature] = int(feature)
             line = f.readline()
         f.close()
 
