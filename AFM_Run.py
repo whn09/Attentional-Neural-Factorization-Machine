@@ -12,8 +12,8 @@ import numpy as np
 from time import time
 
 #定义参数
-Path = 'D:/Recommender System/attentional_factorization_machine-master/Min/data/frappe/'
-Save_file = 'D:/Recommender System/attentional_factorization_machine-master/Min/model/'
+Path = 'data/'
+Save_file = 'model/'
 Epoch = 100
 Batch_size = 128
 Em_factor = 64
