@@ -315,7 +315,7 @@ class AFM(BaseEstimator, TransformerMixin):
         plt.plot(range(0, self.epoch), self.train_loss, 'r-', label='Train_loss')
         plt.plot(range(0, self.epoch), self.valid_loss, 'b-', label='Valid_loss')
         plt.plot(range(0, self.epoch), self.test_loss, 'y-', label='Test_loss')
-        plt.title('训练集、验证集、测试集误差变化')
+        plt.title('Train Validation Test Error')
         plt.ylabel('Rmse')
         plt.xlabel('epoch')
         plt.legend()
