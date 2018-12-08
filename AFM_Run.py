@@ -29,7 +29,7 @@ Bn = 1
 Activation = 'relu'
 Early_stop = 1
 Attention = 1
-Fields = 10
+Fields = 10  # default: 10
 Decay = 0.99
 
 # 读取数据

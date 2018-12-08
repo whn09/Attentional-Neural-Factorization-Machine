@@ -319,7 +319,8 @@ class AFM(BaseEstimator, TransformerMixin):
         plt.ylabel('Rmse')
         plt.xlabel('epoch')
         plt.legend()
-        plt.show()
+        # plt.show()
+        plt.savefig('afm_rmse.png')
 
     def eva_termination(self, valid):
         if len(valid) > 5:
